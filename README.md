@@ -1,17 +1,17 @@
 # Demoblaze E-commerce Automation Framework
 
-A Selenium WebDriver automation framework for testing the Demoblaze e-commerce website using Page Object Model design pattern with TestNG and multi-browser support.
+This Selenium automation framework implements the Page Object Model design pattern with TestNG for test execution and reporting. It supports data-driven testing with Excel, configuration through properties files, and cross-browser testing.
 
 ## Table of Contents
 
-- [Overview](#overview)
-- [Technology Stack](#technology-stack)
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Setup](#setup)
-- [Configuration](#configuration)
-- [Running Tests](#running-tests)
-- [Test Coverage](#test-coverage)
+- Overview
+- Technology Stack
+- Features]
+- Prerequisites
+- Setup
+- Configuration
+- Running Tests
+- Test Coverage
 
 
 ## Overview
@@ -25,16 +25,14 @@ This framework tests the Demoblaze e-commerce website (https://www.demoblaze.com
 
 ## Technology Stack
 
-| Component | Technology | Version |
-|-----------|-----------|---------|
-| Language | Java | 11+ |
-| Build Tool | Maven | 3.6+ |
-| Automation Tool | Selenium WebDriver | 4.15.0 |
-| Testing Framework | TestNG | 7.8.0 |
-| Design Pattern | Page Object Model | - |
-| Data Management | Apache POI | 5.2.5 |
-| Driver Management | WebDriverManager | 5.6.2 |
-| Logging | Log4j2 | 2.22.0 |
+1.Language  --Java  11+ 
+2.Build Tool -- Maven  3.6+ 
+3.utomation Tool -- Selenium WebDriver  4.15.0 
+4.Testing Framework -- TestNG  7.8.0 
+5.Design Pattern -- Page Object Model  
+6.Data Management -- Apache POI  5.2.5 
+7.Driver Management -- WebDriverManager  5.6.2 
+8.Logging -- Log4j2  2.22.0 
 
 ## Features
 
@@ -120,15 +118,11 @@ mvn test -DsuiteXmlFile=testng.xml
 
 Total: 25+ test cases
 
-| Module | Test Cases | Description |
-|--------|-----------|-------------|
-| Login Tests | 5 | Valid/Invalid login, empty fields, logout |
-| Sign Up Tests | 5 | New user registration, validations |
-| Product Search Tests | 5 | Category selection, product details |
-| Cart Tests | 5 | Add/remove products, price calculation |
-| Checkout Tests | 5 | Complete checkout, form validation |
+1. Login Tests -- 5 Test -- Valid/Invalid login, empty fields, logout 
+2. Sign Up Tests -- 5 Test-- New user registration, validations 
+3. Product Search Tests -- 5 Test -- Category selection, product details 
+4. Cart Tests -- 5 Test-- Add/remove products, price calculation 
+5. Checkout Tests -- 5 Test-- Complete checkout, form validation 
 
 
-
-This project is created for educational  purposes.
 
