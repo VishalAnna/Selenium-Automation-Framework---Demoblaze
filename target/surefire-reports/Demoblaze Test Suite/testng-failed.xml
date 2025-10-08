@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Demoblaze Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.demoblaze.automation.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="1" name="Chrome Tests(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.demoblaze.automation.tests.CartTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testRemoveProductFromCart"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.demoblaze.automation.tests.CartTests -->
+    </classes>
+  </test> <!-- Chrome Tests(failed) -->
+  <test thread-count="1" name="Firefox Tests(failed)" verbose="0">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.demoblaze.automation.tests.LoginTests">
+        <methods>
+          <include name="testLoginWithValidCredentials"/>
+          <include name="testLoginWithEmptyCredentials"/>
+          <include name="testLoginWithInvalidUsername"/>
+          <include name="tearDown"/>
+          <include name="testLogoutFunctionality"/>
+          <include name="testLoginWithInvalidPassword"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.demoblaze.automation.tests.LoginTests -->
+      <class name="com.demoblaze.automation.tests.SignUpTests">
+        <methods>
+          <include name="testSignUpModalClose"/>
+          <include name="testSuccessfulSignUp"/>
+          <include name="testSignUpWithExistingUser"/>
+          <include name="testSignUpWithOnlyUsername"/>
+          <include name="testSignUpWithEmptyFields"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.demoblaze.automation.tests.SignUpTests -->
+    </classes>
+  </test> <!-- Firefox Tests(failed) -->
+</suite> <!-- Failed suite [Demoblaze Test Suite] -->

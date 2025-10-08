@@ -1,0 +1,107 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Test Output
+test-output/
+output/
+screenshots/
+logs/
+reports/
+
+# Browser Drivers
+*.exe
+drivers/
+chromedriver
+geckodriver
+msedgedriver
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~.nib
+*.orig
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Logs and databases
+*.sqlite
+*.db
+
+# OS generated files
+.Spotlight-V100
+.Trashes
+._*
+
+# Test data (optional - uncomment if you don't want to commit test data)
+# src/test/resources/testdata.xlsx
+
+# Allure Reports
+allure-results/
+allure-report/
+
+# Extent Reports
+extent-reports/
+ExtentReports/
+

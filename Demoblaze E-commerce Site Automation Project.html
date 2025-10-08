@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selenium Automation Framework</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --accent: #e74c3c;
+            --light: #ecf0f1;
+            --dark: #34495e;
+            --success: #2ecc71;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            border-radius: 0 0 20px 20px;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        h2 {
+            color: var(--primary);
+            margin: 1.5rem 0;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--secondary);
+        }
+        
+        h3 {
+            color: var(--dark);
+            margin: 1.2rem 0 0.8rem;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 2rem 0;
+        }
+        
+        .feature {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+        }
+        
+        .feature-icon {
+            background: var(--secondary);
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+        
+        .code-block {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1rem 0;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .keyword {
+            color: #f92672;
+        }
+        
+        .comment {
+            color: #75715e;
+        }
+        
+        .string {
+            color: #a6e22e;
+        }
+        
+        .annotation {
+            color: #fd971f;
+        }
+        
+        .structure {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 1.5rem 0;
+        }
+        
+        .module {
+            background: var(--light);
+            padding: 1rem;
+            border-radius: 8px;
+            border-left: 4px solid var(--secondary);
+        }
+        
+        .test-case {
+            padding: 0.8rem;
+            background: #f8f9fa;
+            border-radius: 5px;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+        }
+        
+        .test-case::before {
+            content: "✓";
+            color: var(--success);
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 0.3em 0.6em;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            margin: 0 0.3rem;
+        }
+        
+        .badge-primary {
+            background: var(--secondary);
+            color: white;
+        }
+        
+        .badge-secondary {
+            background: var(--light);
+            color: var(--dark);
+        }
+        
+        .screenshot {
+            width: 100%;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            margin: 1rem 0;
+        }
+        
+        .website-link {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 15px;
+            background: var(--secondary);
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+        
+        .website-link:hover {
+            background: var(--primary);
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding: 2rem 0;
+            color: var(--dark);
+            opacity: 0.8;
+        }
+        
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Selenium Automation Framework</h1>
+            <p class="subtitle">Page Object Model with TestNG, Excel Data Management, and Multi-Browser Support</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>Framework Overview</h2>
+            <p>This Selenium automation framework implements the Page Object Model design pattern with TestNG for test execution and reporting. It supports data-driven testing with Excel, configuration through properties files, and cross-browser testing.</p>
+            
+            <div class="grid">
+                <div class="feature">
+                    <div class="feature-icon">1</div>
+                    <div>
+                        <h3>Page Object Model</h3>
+                        <p>Improved maintainability and reduced code duplication</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">2</div>
+                    <div>
+                        <h3>TestNG Integration</h3>
+                        <p>Parallel execution, parameterization, and detailed reports</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">3</div>
+                    <div>
+                        <h3>Data-Driven Testing</h3>
+                        <p>Excel-based test data management for scalability</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">4</div>
+                    <div>
+                        <h3>Multi-Browser Support</h3>
+                        <p>Chrome and Firefox support with easy configuration</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Framework Structure</h2>
+            <div class="structure">
+                <div class="module">
+                    <h3>src/main/java</h3>
+                    <ul>
+                        <li>pages - Page classes</li>
+                        <li>utils - Helper classes</li>
+                        <li>managers - Driver management</li>
+                        <li>data - Data providers</li>
+                    </ul>
+                </div>
+                <div class="module">
+                    <h3>src/test/java</h3>
+                    <ul>
+                        <li>tests - Test classes</li>
+                        <li>listeners - TestNG listeners</li>
+                        <li>suites - Test suites</li>
+                    </ul>
+                </div>
+                <div class="module">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li>config.properties</li>
+                        <li>testdata.xlsx</li>
+                        <li>testng.xml</li>
+                    </ul>
+                </div>
+                <div class="module">
+                    <h3>Output</h3>
+                    <ul>
+                        <li>test-output - Reports</li>
+                        <li>screenshots - Failure captures</li>
+                        <li>logs - Execution logs</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Sample Test Cases (25+)</h2>
+            <div class="grid">
+                <div>
+                    <h3>Login Page (5 tests)</h3>
+                    <div class="test-case">Successful login with valid credentials</div>
+                    <div class="test-case">Login with invalid username</div>
+                    <div class="test-case">Login with invalid password</div>
+                    <div class="test-case">Login with empty credentials</div>
+                    <div class="test-case">Remember me functionality</div>
+                </div>
+                <div>
+                    <h3>Registration Page (5 tests)</h3>
+                    <div class="test-case">Successful registration</div>
+                    <div class="test-case">Registration with existing email</div>
+                    <div class="test-case">Password strength validation</div>
+                    <div class="test-case">Mandatory field validation</div>
+                    <div class="test-case">Terms and conditions validation</div>
+                </div>
+                <div>
+                    <h3>Product Search (5 tests)</h3>
+                    <div class="test-case">Search by product name</div>
+                    <div class="test-case">Search by category</div>
+                    <div class="test-case">Search with filters</div>
+                    <div class="test-case">Search with sorting</div>
+                    <div class="test-case">Search with no results</div>
+                </div>
+                <div>
+                    <h3>Shopping Cart (5 tests)</h3>
+                    <div class="test-case">Add product to cart</div>
+                    <div class="test-case">Remove product from cart</div>
+                    <div class="test-case">Update product quantity</div>
+                    <div class="test-case">Cart persistence across sessions</div>
+                    <div class="test-case">Price calculation verification</div>
+                </div>
+                <div>
+                    <h3>Checkout Process (5 tests)</h3>
+                    <div class="test-case">Checkout as guest user</div>
+                    <div class="test-case">Checkout as registered user</div>
+                    <div class="test-case">Shipping address validation</div>
+                    <div class="test-case">Payment method selection</div>
+                    <div class="test-case">Order confirmation</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Sample Automation Website</h2>
+            <div class="grid">
+                <div>
+                    <h3>Demoblaze E-commerce Site</h3>
+                    <p>Automate product search, cart management, and checkout processes.</p>
+                    <span class="badge badge-primary">Login</span>
+                    <span class="badge badge-primary">Search</span>
+                    <span class="badge badge-primary">Cart</span>
+                    <span class="badge badge-primary">Checkout</span>
+                    <a href="https://www.demoblaze.com/index.html#" class="website-link" target="_blank">Visit Demoblaze</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Implementation Guidelines</h2>
+            
+            <h3>1. Set Up Project Structure</h3>
+            <div class="code-block">
+                <pre>Project-Root/
+│
+├── src/
+│   ├── main/java/
+│   │   ├── pages/              # Page classes
+│   │   ├── utils/              # Helper classes
+│   │   ├── managers/           # Driver management
+│   │   └── data/               # Data providers
+│   │
+│   └── test/java/
+│       ├── tests/              # Test classes
+│       ├── listeners/          # TestNG listeners
+│       └── suites/             # Test suites
+│
+├── resources/
+│   ├── config.properties       # Configuration file
+│   ├── testdata.xlsx           # Test data
+│   └── testng.xml              # TestNG configuration
+│
+└── output/
+    ├── test-output/            # Test reports
+    ├── screenshots/            # Failure screenshots
+    └── logs/                   # Execution logs</pre>
+            </div>
+
+            <h3>2. Create Configuration Manager</h3>
+            <p>Implement a configuration manager to read from properties file:</p>
+            <div class="code-block">
+                <pre><span class="comment"># config.properties example</span>
+browser=chrome
+url=https://www.demoblaze.com
+implicit.wait=10
+explicit.wait=20</pre>
+            </div>
+
+            <h3>3. Implement Excel Data Reader</h3>
+            <p>Create a utility class to read test data from Excel files:</p>
+            <div class="code-block">
+                <pre><span class="keyword">public class</span> ExcelReader {
+    <span class="keyword">public</span> Object[][] getTestData(String sheetName) {
+        <span class="comment">// Implementation to read data from Excel</span>
+    }
+}</pre>
+            </div>
+
+            <h3>4. Create Base Page and Page Classes</h3>
+            <p>Implement the Page Object Model pattern:</p>
+            <div class="code-block">
+                <pre><span class="keyword">public class</span> LoginPage {
+    <span class="keyword">private</span> WebDriver driver;
+    
+    <span class="keyword">public</span> LoginPage(WebDriver driver) {
+        <span class="keyword">this</span>.driver = driver;
+        PageFactory.initElements(driver, <span class="keyword">this</span>);
+    }
+    
+    <span class="annotation">@FindBy</span>(id = "loginusername")
+    <span class="keyword">private</span> WebElement usernameField;
+    
+    <span class="annotation">@FindBy</span>(id = "loginpassword")
+    <span class="keyword">private</span> WebElement passwordField;
+    
+    <span class="annotation">@FindBy</span>(xpath = "//button[contains(text(),'Log in')]")
+    <span class="keyword">private</span> WebElement loginButton;
+    
+    <span class="keyword">public</span> <span class="keyword">void</span> login(String username, String password) {
+        usernameField.sendKeys(username);
+        passwordField.sendKeys(password);
+        loginButton.click();
+    }
+}</pre>
+            </div>
+
+            <h3>5. Implement TestNG Tests</h3>
+            <p>Create TestNG test classes with data providers:</p>
+            <div class="code-block">
+                <pre><span class="keyword">public class</span> LoginTests {
+    <span class="keyword">private</span> WebDriver driver;
+    <span class="keyword">private</span> LoginPage loginPage;
+    
+    <span class="annotation">@BeforeMethod</span>
+    <span class="keyword">public</span> <span class="keyword">void</span> setup() {
+        driver = DriverManager.getDriver();
+        loginPage = <span class="keyword">new</span> LoginPage(driver);
+    }
+    
+    <span class="annotation">@Test</span>(dataProvider = "loginData")
+    <span class="keyword">public</span> <span class="keyword">void</span> testLogin(String username, String password, boolean expected) {
+        loginPage.login(username, password);
+        <span class="comment">// Assertions and test logic</span>
+    }
+    
+    <span class="annotation">@DataProvider</span>(name = "loginData")
+    <span class="keyword">public</span> Object[][] getLoginData() {
+        <span class="keyword">return</span> <span class="keyword">new</span> ExcelReader().getTestData("Login");
+    }
+}</pre>
+            </div>
+
+            <h3>6. Configure TestNG for Reporting</h3>
+            <p>Set up TestNG listeners for extended reporting:</p>
+            <div class="code-block">
+                <pre><span class="keyword">public class</span> TestListener <span class="keyword">implements</span> ITestListener {
+    <span class="annotation">@Override</span>
+    <span class="keyword">public</span> <span class="keyword">void</span> onTestFailure(ITestResult result) {
+        <span class="comment">// Capture screenshot on failure</span>
+        String testName = result.getName();
+        takeScreenshot(testName);
+    }
+    
+    <span class="keyword">private</span> <span class="keyword">void</span> takeScreenshot(String testName) {
+        <span class="comment">// Screenshot implementation</span>
+    }
+}</pre>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Execution and Reporting</h2>
+            
+            <h3>Test Execution</h3>
+            <p>Run tests using TestNG XML configuration:</p>
+            <div class="code-block">
+                <pre><span class="comment"><!-- testng.xml --></span>
+&lt;suite name="Demoblaze Test Suite" parallel="tests" thread-count="3"&gt;
+    &lt;test name="Chrome Tests"&gt;
+        &lt;parameter name="browser" value="chrome"/&gt;
+        &lt;classes&gt;
+            &lt;class name="tests.LoginTests"/&gt;
+            &lt;class name="tests.SearchTests"/&gt;
+            &lt;class name="tests.CartTests"/&gt;
+            &lt;class name="tests.CheckoutTests"/&gt;
+        &lt;/classes&gt;
+    &lt;/test&gt;
+    &lt;test name="Firefox Tests"&gt;
+        &lt;parameter name="browser" value="firefox"/&gt;
+        &lt;classes&gt;
+            &lt;class name="tests.LoginTests"/&gt;
+            &lt;class name="tests.SearchTests"/&gt;
+            &lt;class name="tests.CartTests"/&gt;
+            &lt;class name="tests.CheckoutTests"/&gt;
+        &lt;/classes&gt;
+    &lt;/test&gt;
+&lt;/suite&gt;</pre>
+            </div>
+
+            <h3>Reporting</h3>
+            <p>TestNG generates detailed HTML reports with:</p>
+            <ul>
+                <li>Test execution status (Pass/Fail/Skip)</li>
+                <li>Execution times and timelines</li>
+                <li>Group and method-level results</li>
+                <li>Failure reasons and stack traces</li>
+                <li>Screenshots for failed tests</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Selenium Automation Framework Guidelines | Page Object Model | TestNG | Multi-Browser Support</p>
+            <p>Demo Site: <a href="https://www.demoblaze.com/index.html#" target="_blank">Demoblaze E-commerce</a></p>
+        </div>
+    </footer>
+</body>
+</html>

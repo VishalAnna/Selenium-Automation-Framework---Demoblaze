@@ -1,0 +1,1228 @@
+2025-10-08 17:41:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:41:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - TEST SUITE STARTED: Chrome Tests
+2025-10-08 17:41:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:41:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:41:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: chrome
+2025-10-08 17:41:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing chrome driver
+2025-10-08 17:41:06 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Chrome browser initialized
+2025-10-08 17:41:06 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver initialized successfully
+2025-10-08 17:41:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - HomePage initialized
+2025-10-08 17:41:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - LoginPage initialized
+2025-10-08 17:41:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - SignUpPage initialized
+2025-10-08 17:41:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ProductPage initialized
+2025-10-08 17:41:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CartPage initialized
+2025-10-08 17:41:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CheckoutPage initialized
+2025-10-08 17:41:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test setup completed successfully
+2025-10-08 17:41:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:41:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:41:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testLoginWithValidCredentials
+2025-10-08 17:41:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test login with valid credentials
+2025-10-08 17:41:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:41:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test: Login with valid credentials
+2025-10-08 17:41:08 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (22e48d6962641d5fc4ac8b1e1ed13a3b)] -> id: login2]
+2025-10-08 17:41:08 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on Login link
+2025-10-08 17:41:10 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Login modal is visible
+2025-10-08 17:41:10 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: testuser123
+2025-10-08 17:41:10 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: Test@123
+2025-10-08 17:41:10 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (22e48d6962641d5fc4ac8b1e1ed13a3b)] -> xpath: //button[contains(text(),'Log in')]]
+2025-10-08 17:41:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Login attempt with username: testuser123
+2025-10-08 17:41:15 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Login status: false
+2025-10-08 17:41:15 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ✓ TEST PASSED: testLoginWithValidCredentials
+2025-10-08 17:41:15 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Execution Time: 7259 ms
+2025-10-08 17:41:15 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:41:15 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:41:15 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Quitting driver
+2025-10-08 17:41:15 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver quit successfully
+2025-10-08 17:41:15 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:41:15 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:41:15 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:41:15 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: chrome
+2025-10-08 17:41:15 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing chrome driver
+2025-10-08 17:41:16 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Chrome browser initialized
+2025-10-08 17:41:16 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver initialized successfully
+2025-10-08 17:41:18 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - HomePage initialized
+2025-10-08 17:41:18 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - LoginPage initialized
+2025-10-08 17:41:18 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - SignUpPage initialized
+2025-10-08 17:41:18 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ProductPage initialized
+2025-10-08 17:41:18 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CartPage initialized
+2025-10-08 17:41:18 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CheckoutPage initialized
+2025-10-08 17:41:18 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test setup completed successfully
+2025-10-08 17:41:18 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:41:18 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:41:18 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testLoginWithInvalidUsername
+2025-10-08 17:41:18 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test login with invalid username
+2025-10-08 17:41:18 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:41:18 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test: Login with invalid username
+2025-10-08 17:41:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (9a0ffd00907ba54978876397d2d71678)] -> id: login2]
+2025-10-08 17:41:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on Login link
+2025-10-08 17:41:20 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Login modal is visible
+2025-10-08 17:41:21 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: invaliduser999
+2025-10-08 17:41:21 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: Test@123
+2025-10-08 17:41:21 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (9a0ffd00907ba54978876397d2d71678)] -> xpath: //button[contains(text(),'Log in')]]
+2025-10-08 17:41:21 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Login attempt with username: invaliduser999
+2025-10-08 17:41:25 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert text: User does not exist.
+2025-10-08 17:41:25 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert message: User does not exist.
+2025-10-08 17:41:25 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert text: User does not exist.
+2025-10-08 17:41:25 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ✓ TEST PASSED: testLoginWithInvalidUsername
+2025-10-08 17:41:25 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Execution Time: 7705 ms
+2025-10-08 17:41:25 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:41:25 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:41:25 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Quitting driver
+2025-10-08 17:41:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver quit successfully
+2025-10-08 17:41:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:41:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:41:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:41:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: chrome
+2025-10-08 17:41:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing chrome driver
+2025-10-08 17:41:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Chrome browser initialized
+2025-10-08 17:41:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver initialized successfully
+2025-10-08 17:41:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - HomePage initialized
+2025-10-08 17:41:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - LoginPage initialized
+2025-10-08 17:41:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - SignUpPage initialized
+2025-10-08 17:41:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ProductPage initialized
+2025-10-08 17:41:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CartPage initialized
+2025-10-08 17:41:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CheckoutPage initialized
+2025-10-08 17:41:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test setup completed successfully
+2025-10-08 17:41:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:41:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:41:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testLoginWithInvalidPassword
+2025-10-08 17:41:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test login with invalid password
+2025-10-08 17:41:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:41:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test: Login with invalid password
+2025-10-08 17:41:30 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (2fe4dfd7b985b3ce3d50e438eda132a9)] -> id: login2]
+2025-10-08 17:41:30 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on Login link
+2025-10-08 17:41:31 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Login modal is visible
+2025-10-08 17:41:31 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: test
+2025-10-08 17:41:32 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: wrongpassword123
+2025-10-08 17:41:32 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (2fe4dfd7b985b3ce3d50e438eda132a9)] -> xpath: //button[contains(text(),'Log in')]]
+2025-10-08 17:41:32 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Login attempt with username: test
+2025-10-08 17:41:34 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert text: Wrong password.
+2025-10-08 17:41:34 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert message: Wrong password.
+2025-10-08 17:41:34 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert text: Wrong password.
+2025-10-08 17:41:34 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ✓ TEST PASSED: testLoginWithInvalidPassword
+2025-10-08 17:41:34 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Execution Time: 5070 ms
+2025-10-08 17:41:34 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:41:34 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:41:34 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Quitting driver
+2025-10-08 17:41:34 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver quit successfully
+2025-10-08 17:41:34 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:41:34 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:41:34 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:41:34 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: chrome
+2025-10-08 17:41:34 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing chrome driver
+2025-10-08 17:41:35 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Chrome browser initialized
+2025-10-08 17:41:35 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver initialized successfully
+2025-10-08 17:41:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - HomePage initialized
+2025-10-08 17:41:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - LoginPage initialized
+2025-10-08 17:41:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - SignUpPage initialized
+2025-10-08 17:41:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ProductPage initialized
+2025-10-08 17:41:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CartPage initialized
+2025-10-08 17:41:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CheckoutPage initialized
+2025-10-08 17:41:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test setup completed successfully
+2025-10-08 17:41:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:41:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:41:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testLoginWithEmptyCredentials
+2025-10-08 17:41:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test login with empty credentials
+2025-10-08 17:41:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:41:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test: Login with empty credentials
+2025-10-08 17:41:37 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (cb807a5962f660a3656f59700890bf83)] -> id: login2]
+2025-10-08 17:41:37 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on Login link
+2025-10-08 17:41:39 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Login modal is visible
+2025-10-08 17:41:39 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked login button (alert expected)
+2025-10-08 17:41:40 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert text: Please fill out Username and Password.
+2025-10-08 17:41:40 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert message: Please fill out Username and Password.
+2025-10-08 17:41:40 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert text: Please fill out Username and Password.
+2025-10-08 17:41:40 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ✓ TEST PASSED: testLoginWithEmptyCredentials
+2025-10-08 17:41:40 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Execution Time: 3833 ms
+2025-10-08 17:41:40 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:41:40 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:41:40 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Quitting driver
+2025-10-08 17:41:40 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver quit successfully
+2025-10-08 17:41:40 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:41:40 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:41:40 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:41:40 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: chrome
+2025-10-08 17:41:40 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing chrome driver
+2025-10-08 17:41:41 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Chrome browser initialized
+2025-10-08 17:41:41 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver initialized successfully
+2025-10-08 17:41:43 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - HomePage initialized
+2025-10-08 17:41:43 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - LoginPage initialized
+2025-10-08 17:41:43 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - SignUpPage initialized
+2025-10-08 17:41:43 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ProductPage initialized
+2025-10-08 17:41:43 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CartPage initialized
+2025-10-08 17:41:43 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CheckoutPage initialized
+2025-10-08 17:41:43 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test setup completed successfully
+2025-10-08 17:41:43 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:41:43 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:41:43 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testLogoutFunctionality
+2025-10-08 17:41:43 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test logout functionality
+2025-10-08 17:41:43 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:41:43 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test: Logout functionality
+2025-10-08 17:41:44 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (1dd348ff6c3914ed32e1e326c0149293)] -> id: login2]
+2025-10-08 17:41:44 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on Login link
+2025-10-08 17:41:46 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Login modal is visible
+2025-10-08 17:41:46 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: testuser123
+2025-10-08 17:41:46 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: Test@123
+2025-10-08 17:41:46 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (1dd348ff6c3914ed32e1e326c0149293)] -> xpath: //button[contains(text(),'Log in')]]
+2025-10-08 17:41:46 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Login attempt with username: testuser123
+2025-10-08 17:41:50 [main] WARN  com.demoblaze.automation.utils.LoggerUtil - Dismissing unexpected alert: Wrong password.
+2025-10-08 17:41:51 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - User logged in: false
+2025-10-08 17:41:51 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ✓ TEST PASSED: testLogoutFunctionality
+2025-10-08 17:41:51 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Execution Time: 7667 ms
+2025-10-08 17:41:51 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:41:51 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:41:51 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Quitting driver
+2025-10-08 17:41:51 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver quit successfully
+2025-10-08 17:41:51 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:41:51 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:41:51 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:41:51 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: chrome
+2025-10-08 17:41:51 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing chrome driver
+2025-10-08 17:41:52 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Chrome browser initialized
+2025-10-08 17:41:52 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver initialized successfully
+2025-10-08 17:41:53 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - HomePage initialized
+2025-10-08 17:41:53 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - LoginPage initialized
+2025-10-08 17:41:53 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - SignUpPage initialized
+2025-10-08 17:41:53 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ProductPage initialized
+2025-10-08 17:41:53 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CartPage initialized
+2025-10-08 17:41:53 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CheckoutPage initialized
+2025-10-08 17:41:53 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test setup completed successfully
+2025-10-08 17:41:53 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:41:53 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:41:53 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testSuccessfulSignUp
+2025-10-08 17:41:53 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test successful sign up with unique username
+2025-10-08 17:41:53 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:41:53 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test: Successful sign up
+2025-10-08 17:41:54 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (167efd2fd148081b15683098bcd15115)] -> id: signin2]
+2025-10-08 17:41:54 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on Sign Up link
+2025-10-08 17:41:56 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Sign up modal is visible
+2025-10-08 17:41:56 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: user_e57e316a
+2025-10-08 17:41:56 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: Test@123
+2025-10-08 17:41:56 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (167efd2fd148081b15683098bcd15115)] -> xpath: //button[contains(text(),'Sign up')]]
+2025-10-08 17:41:56 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Sign up attempt with username: user_e57e316a
+2025-10-08 17:41:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert text: Sign up successful.
+2025-10-08 17:41:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Sign up alert: Sign up successful.
+2025-10-08 17:41:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert text: Sign up successful.
+2025-10-08 17:41:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ✓ TEST PASSED: testSuccessfulSignUp
+2025-10-08 17:41:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Execution Time: 5005 ms
+2025-10-08 17:41:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:41:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:41:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Quitting driver
+2025-10-08 17:41:59 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver quit successfully
+2025-10-08 17:41:59 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:41:59 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:41:59 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:41:59 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: chrome
+2025-10-08 17:41:59 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing chrome driver
+2025-10-08 17:41:59 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Chrome browser initialized
+2025-10-08 17:41:59 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver initialized successfully
+2025-10-08 17:42:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - HomePage initialized
+2025-10-08 17:42:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - LoginPage initialized
+2025-10-08 17:42:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - SignUpPage initialized
+2025-10-08 17:42:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ProductPage initialized
+2025-10-08 17:42:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CartPage initialized
+2025-10-08 17:42:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CheckoutPage initialized
+2025-10-08 17:42:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test setup completed successfully
+2025-10-08 17:42:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:42:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testSignUpWithExistingUser
+2025-10-08 17:42:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test sign up with existing username
+2025-10-08 17:42:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:42:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test: Sign up with existing user
+2025-10-08 17:42:03 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (55c2ca6f683c2d8b19aa6a39f38a2ff0)] -> id: signin2]
+2025-10-08 17:42:03 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on Sign Up link
+2025-10-08 17:42:04 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Sign up modal is visible
+2025-10-08 17:42:04 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: test
+2025-10-08 17:42:05 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: Test@123
+2025-10-08 17:42:05 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (55c2ca6f683c2d8b19aa6a39f38a2ff0)] -> xpath: //button[contains(text(),'Sign up')]]
+2025-10-08 17:42:05 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Sign up attempt with username: test
+2025-10-08 17:42:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert text: This user already exist.
+2025-10-08 17:42:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Sign up alert: This user already exist.
+2025-10-08 17:42:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert text: This user already exist.
+2025-10-08 17:42:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ✓ TEST PASSED: testSignUpWithExistingUser
+2025-10-08 17:42:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Execution Time: 5039 ms
+2025-10-08 17:42:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:42:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Quitting driver
+2025-10-08 17:42:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver quit successfully
+2025-10-08 17:42:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:42:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: chrome
+2025-10-08 17:42:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing chrome driver
+2025-10-08 17:42:08 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Chrome browser initialized
+2025-10-08 17:42:08 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver initialized successfully
+2025-10-08 17:42:09 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - HomePage initialized
+2025-10-08 17:42:09 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - LoginPage initialized
+2025-10-08 17:42:09 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - SignUpPage initialized
+2025-10-08 17:42:09 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ProductPage initialized
+2025-10-08 17:42:09 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CartPage initialized
+2025-10-08 17:42:09 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CheckoutPage initialized
+2025-10-08 17:42:09 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test setup completed successfully
+2025-10-08 17:42:09 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:09 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:42:09 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testSignUpWithEmptyFields
+2025-10-08 17:42:09 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test sign up with empty fields
+2025-10-08 17:42:09 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:42:09 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test: Sign up with empty fields
+2025-10-08 17:42:10 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (00ff04781030dcf7b283beabc7c9a1cf)] -> id: signin2]
+2025-10-08 17:42:10 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on Sign Up link
+2025-10-08 17:42:12 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Sign up modal is visible
+2025-10-08 17:42:12 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked sign up button (alert expected)
+2025-10-08 17:42:13 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert text: Please fill out Username and Password.
+2025-10-08 17:42:13 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Sign up alert: Please fill out Username and Password.
+2025-10-08 17:42:13 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert text: Please fill out Username and Password.
+2025-10-08 17:42:13 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ✓ TEST PASSED: testSignUpWithEmptyFields
+2025-10-08 17:42:13 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Execution Time: 3847 ms
+2025-10-08 17:42:13 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:13 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:42:13 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Quitting driver
+2025-10-08 17:42:13 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver quit successfully
+2025-10-08 17:42:13 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:42:13 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:13 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:13 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: chrome
+2025-10-08 17:42:13 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing chrome driver
+2025-10-08 17:42:14 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Chrome browser initialized
+2025-10-08 17:42:14 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver initialized successfully
+2025-10-08 17:42:15 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - HomePage initialized
+2025-10-08 17:42:15 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - LoginPage initialized
+2025-10-08 17:42:15 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - SignUpPage initialized
+2025-10-08 17:42:15 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ProductPage initialized
+2025-10-08 17:42:15 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CartPage initialized
+2025-10-08 17:42:15 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CheckoutPage initialized
+2025-10-08 17:42:15 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test setup completed successfully
+2025-10-08 17:42:15 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:15 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:42:15 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testSignUpWithOnlyUsername
+2025-10-08 17:42:15 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test sign up with only username
+2025-10-08 17:42:15 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:42:15 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test: Sign up with only username
+2025-10-08 17:42:16 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (fef5e9f4b85e6fda80540b21595aa71c)] -> id: signin2]
+2025-10-08 17:42:16 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on Sign Up link
+2025-10-08 17:42:18 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Sign up modal is visible
+2025-10-08 17:42:18 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: user_ffc48511
+2025-10-08 17:42:18 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked sign up button (alert expected)
+2025-10-08 17:42:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert text: Please fill out Username and Password.
+2025-10-08 17:42:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Sign up alert: Please fill out Username and Password.
+2025-10-08 17:42:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert text: Please fill out Username and Password.
+2025-10-08 17:42:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ✓ TEST PASSED: testSignUpWithOnlyUsername
+2025-10-08 17:42:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Execution Time: 3919 ms
+2025-10-08 17:42:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:42:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Quitting driver
+2025-10-08 17:42:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver quit successfully
+2025-10-08 17:42:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:42:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: chrome
+2025-10-08 17:42:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing chrome driver
+2025-10-08 17:42:20 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Chrome browser initialized
+2025-10-08 17:42:20 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver initialized successfully
+2025-10-08 17:42:21 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - HomePage initialized
+2025-10-08 17:42:21 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - LoginPage initialized
+2025-10-08 17:42:21 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - SignUpPage initialized
+2025-10-08 17:42:21 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ProductPage initialized
+2025-10-08 17:42:21 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CartPage initialized
+2025-10-08 17:42:21 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CheckoutPage initialized
+2025-10-08 17:42:21 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test setup completed successfully
+2025-10-08 17:42:21 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:21 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:42:21 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testSignUpModalClose
+2025-10-08 17:42:21 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test sign up modal close functionality
+2025-10-08 17:42:21 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:42:21 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test: Close sign up modal
+2025-10-08 17:42:22 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (db6e2aa0fddc25fac47701c26e8098af)] -> id: signin2]
+2025-10-08 17:42:22 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on Sign Up link
+2025-10-08 17:42:24 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Sign up modal is visible
+2025-10-08 17:42:24 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (db6e2aa0fddc25fac47701c26e8098af)] -> xpath: //div[@id='signInModal']//button[contains(text(),'Close')]]
+2025-10-08 17:42:24 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Sign up modal closed successfully
+2025-10-08 17:42:24 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ✓ TEST PASSED: testSignUpModalClose
+2025-10-08 17:42:24 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Execution Time: 2755 ms
+2025-10-08 17:42:24 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:24 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:42:24 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Quitting driver
+2025-10-08 17:42:24 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver quit successfully
+2025-10-08 17:42:24 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:42:24 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:24 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:24 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: chrome
+2025-10-08 17:42:24 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing chrome driver
+2025-10-08 17:42:25 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Chrome browser initialized
+2025-10-08 17:42:25 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver initialized successfully
+2025-10-08 17:42:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - HomePage initialized
+2025-10-08 17:42:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - LoginPage initialized
+2025-10-08 17:42:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - SignUpPage initialized
+2025-10-08 17:42:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ProductPage initialized
+2025-10-08 17:42:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CartPage initialized
+2025-10-08 17:42:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CheckoutPage initialized
+2025-10-08 17:42:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test setup completed successfully
+2025-10-08 17:42:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:42:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testSearchByPhonesCategory
+2025-10-08 17:42:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test product search by selecting Phones category
+2025-10-08 17:42:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:42:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test: Search by Phones category
+2025-10-08 17:42:27 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (d87efca70f59399a2132a3fc2bc78a0f)] -> link text: Phones]
+2025-10-08 17:42:27 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Selected category: Phones
+2025-10-08 17:42:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Current URL: https://www.demoblaze.com/index.html#
+2025-10-08 17:42:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ✓ TEST PASSED: testSearchByPhonesCategory
+2025-10-08 17:42:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Execution Time: 3139 ms
+2025-10-08 17:42:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:42:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Quitting driver
+2025-10-08 17:42:30 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver quit successfully
+2025-10-08 17:42:30 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:42:30 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:30 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:30 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: chrome
+2025-10-08 17:42:30 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing chrome driver
+2025-10-08 17:42:30 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Chrome browser initialized
+2025-10-08 17:42:30 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver initialized successfully
+2025-10-08 17:42:32 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - HomePage initialized
+2025-10-08 17:42:32 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - LoginPage initialized
+2025-10-08 17:42:32 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - SignUpPage initialized
+2025-10-08 17:42:32 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ProductPage initialized
+2025-10-08 17:42:32 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CartPage initialized
+2025-10-08 17:42:32 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CheckoutPage initialized
+2025-10-08 17:42:32 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test setup completed successfully
+2025-10-08 17:42:32 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:32 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:42:32 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testSearchByLaptopsCategory
+2025-10-08 17:42:32 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test product search by selecting Laptops category
+2025-10-08 17:42:32 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:42:32 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test: Search by Laptops category
+2025-10-08 17:42:34 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (43e29d92b041c64a7122f2b53cb4bba7)] -> link text: Laptops]
+2025-10-08 17:42:34 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Selected category: Laptops
+2025-10-08 17:42:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Current URL: https://www.demoblaze.com/index.html#
+2025-10-08 17:42:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ✓ TEST PASSED: testSearchByLaptopsCategory
+2025-10-08 17:42:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Execution Time: 3164 ms
+2025-10-08 17:42:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:42:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Quitting driver
+2025-10-08 17:42:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver quit successfully
+2025-10-08 17:42:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:42:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: chrome
+2025-10-08 17:42:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing chrome driver
+2025-10-08 17:42:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Chrome browser initialized
+2025-10-08 17:42:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver initialized successfully
+2025-10-08 17:42:38 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - HomePage initialized
+2025-10-08 17:42:38 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - LoginPage initialized
+2025-10-08 17:42:38 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - SignUpPage initialized
+2025-10-08 17:42:38 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ProductPage initialized
+2025-10-08 17:42:38 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CartPage initialized
+2025-10-08 17:42:38 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CheckoutPage initialized
+2025-10-08 17:42:38 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test setup completed successfully
+2025-10-08 17:42:38 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:38 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:42:38 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testSearchByMonitorsCategory
+2025-10-08 17:42:38 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test product search by selecting Monitors category
+2025-10-08 17:42:38 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:42:38 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test: Search by Monitors category
+2025-10-08 17:42:39 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (4e95d7b44c8838161fee5d1474d7036e)] -> link text: Monitors]
+2025-10-08 17:42:39 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Selected category: Monitors
+2025-10-08 17:42:41 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Current URL: https://www.demoblaze.com/index.html#
+2025-10-08 17:42:41 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ✓ TEST PASSED: testSearchByMonitorsCategory
+2025-10-08 17:42:41 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Execution Time: 3169 ms
+2025-10-08 17:42:41 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:41 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:42:41 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Quitting driver
+2025-10-08 17:42:41 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver quit successfully
+2025-10-08 17:42:41 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:42:41 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:42 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:42 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: chrome
+2025-10-08 17:42:42 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing chrome driver
+2025-10-08 17:42:42 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Chrome browser initialized
+2025-10-08 17:42:42 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver initialized successfully
+2025-10-08 17:42:43 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - HomePage initialized
+2025-10-08 17:42:43 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - LoginPage initialized
+2025-10-08 17:42:43 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - SignUpPage initialized
+2025-10-08 17:42:43 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ProductPage initialized
+2025-10-08 17:42:43 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CartPage initialized
+2025-10-08 17:42:43 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CheckoutPage initialized
+2025-10-08 17:42:43 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test setup completed successfully
+2025-10-08 17:42:43 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:43 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:42:43 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testSelectSpecificProduct
+2025-10-08 17:42:43 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test selecting a specific product
+2025-10-08 17:42:43 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:42:43 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test: Select specific product
+2025-10-08 17:42:45 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (d7465e021d29fea5ae1a74ff80d09d48)] -> link text: Phones]
+2025-10-08 17:42:45 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Selected category: Phones
+2025-10-08 17:42:48 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (d7465e021d29fea5ae1a74ff80d09d48)] -> link text: Samsung galaxy s6]
+2025-10-08 17:42:48 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Selected product: Samsung galaxy s6
+2025-10-08 17:42:49 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Retrieved text: Samsung galaxy s6
+2025-10-08 17:42:49 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Product name: Samsung galaxy s6
+2025-10-08 17:42:49 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ✓ TEST PASSED: testSelectSpecificProduct
+2025-10-08 17:42:49 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Execution Time: 5967 ms
+2025-10-08 17:42:49 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:49 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:42:49 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Quitting driver
+2025-10-08 17:42:50 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver quit successfully
+2025-10-08 17:42:50 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:42:50 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:50 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:50 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: chrome
+2025-10-08 17:42:50 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing chrome driver
+2025-10-08 17:42:50 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Chrome browser initialized
+2025-10-08 17:42:50 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver initialized successfully
+2025-10-08 17:42:52 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - HomePage initialized
+2025-10-08 17:42:52 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - LoginPage initialized
+2025-10-08 17:42:52 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - SignUpPage initialized
+2025-10-08 17:42:52 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ProductPage initialized
+2025-10-08 17:42:52 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CartPage initialized
+2025-10-08 17:42:52 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CheckoutPage initialized
+2025-10-08 17:42:52 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test setup completed successfully
+2025-10-08 17:42:52 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:52 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:42:52 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testProductDetailsDisplay
+2025-10-08 17:42:52 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test product details display
+2025-10-08 17:42:52 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:42:52 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test: Product details display
+2025-10-08 17:42:53 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (e60ee4e2c2d5387a22ae8c19e278ab57)] -> link text: Phones]
+2025-10-08 17:42:53 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Selected category: Phones
+2025-10-08 17:42:57 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (e60ee4e2c2d5387a22ae8c19e278ab57)] -> link text: Samsung galaxy s6]
+2025-10-08 17:42:57 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Selected product: Samsung galaxy s6
+2025-10-08 17:42:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Retrieved text: Samsung galaxy s6
+2025-10-08 17:42:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Retrieved text: $360 *includes tax
+2025-10-08 17:42:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Product Name: Samsung galaxy s6
+2025-10-08 17:42:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Product Price: $360
+2025-10-08 17:42:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ✓ TEST PASSED: testProductDetailsDisplay
+2025-10-08 17:42:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Execution Time: 6041 ms
+2025-10-08 17:42:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:42:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Quitting driver
+2025-10-08 17:42:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver quit successfully
+2025-10-08 17:42:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:42:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:42:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: chrome
+2025-10-08 17:42:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing chrome driver
+2025-10-08 17:42:59 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Chrome browser initialized
+2025-10-08 17:42:59 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver initialized successfully
+2025-10-08 17:43:01 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - HomePage initialized
+2025-10-08 17:43:01 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - LoginPage initialized
+2025-10-08 17:43:01 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - SignUpPage initialized
+2025-10-08 17:43:01 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ProductPage initialized
+2025-10-08 17:43:01 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CartPage initialized
+2025-10-08 17:43:01 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CheckoutPage initialized
+2025-10-08 17:43:01 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test setup completed successfully
+2025-10-08 17:43:01 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:43:01 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:43:01 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testAddProductToCart
+2025-10-08 17:43:01 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test adding product to cart
+2025-10-08 17:43:01 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:43:01 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test: Add product to cart
+2025-10-08 17:43:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (5c01917fc3de3d75122d92e894b8af74)] -> link text: Phones]
+2025-10-08 17:43:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Selected category: Phones
+2025-10-08 17:43:06 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (5c01917fc3de3d75122d92e894b8af74)] -> link text: Samsung galaxy s6]
+2025-10-08 17:43:06 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Selected product: Samsung galaxy s6
+2025-10-08 17:43:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (5c01917fc3de3d75122d92e894b8af74)] -> xpath: //a[contains(text(),'Add to cart')]]
+2025-10-08 17:43:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked Add to Cart button
+2025-10-08 17:43:08 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert text: Product added
+2025-10-08 17:43:08 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert: Product added
+2025-10-08 17:43:08 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert text: Product added
+2025-10-08 17:43:08 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ✓ TEST PASSED: testAddProductToCart
+2025-10-08 17:43:08 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Execution Time: 6806 ms
+2025-10-08 17:43:08 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:43:08 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:43:08 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Quitting driver
+2025-10-08 17:43:08 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver quit successfully
+2025-10-08 17:43:08 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:43:08 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:43:08 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:43:08 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: chrome
+2025-10-08 17:43:08 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing chrome driver
+2025-10-08 17:43:09 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Chrome browser initialized
+2025-10-08 17:43:09 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver initialized successfully
+2025-10-08 17:43:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - HomePage initialized
+2025-10-08 17:43:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - LoginPage initialized
+2025-10-08 17:43:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - SignUpPage initialized
+2025-10-08 17:43:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ProductPage initialized
+2025-10-08 17:43:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CartPage initialized
+2025-10-08 17:43:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CheckoutPage initialized
+2025-10-08 17:43:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test setup completed successfully
+2025-10-08 17:43:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:43:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:43:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testViewCartAfterAddingProduct
+2025-10-08 17:43:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test viewing cart after adding product
+2025-10-08 17:43:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:43:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test: View cart after adding product
+2025-10-08 17:43:12 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (991244ec64956bf425814c01bf83a7f0)] -> link text: Phones]
+2025-10-08 17:43:12 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Selected category: Phones
+2025-10-08 17:43:16 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (991244ec64956bf425814c01bf83a7f0)] -> link text: Samsung galaxy s6]
+2025-10-08 17:43:16 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Selected product: Samsung galaxy s6
+2025-10-08 17:43:17 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (991244ec64956bf425814c01bf83a7f0)] -> xpath: //a[contains(text(),'Add to cart')]]
+2025-10-08 17:43:17 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked Add to Cart button
+2025-10-08 17:43:18 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert text: Product added
+2025-10-08 17:43:40 [main] ERROR com.demoblaze.automation.utils.LoggerUtil - Element not clickable: By.linkText: Home
+2025-10-08 17:43:40 [main] WARN  com.demoblaze.automation.utils.LoggerUtil - Could not click Home link, trying alternative method
+2025-10-08 17:43:43 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Navigated to home page using JavaScript
+2025-10-08 17:43:54 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: cartur'
+2025-10-08 17:43:54 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on Cart link
+2025-10-08 17:43:55 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Cart item count: 1
+2025-10-08 17:43:55 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ✓ TEST PASSED: testViewCartAfterAddingProduct
+2025-10-08 17:43:55 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Execution Time: 44355 ms
+2025-10-08 17:43:55 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:43:55 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:43:55 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Quitting driver
+2025-10-08 17:43:55 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver quit successfully
+2025-10-08 17:43:55 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:43:55 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:43:55 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:43:55 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: chrome
+2025-10-08 17:43:55 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing chrome driver
+2025-10-08 17:43:56 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Chrome browser initialized
+2025-10-08 17:43:56 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver initialized successfully
+2025-10-08 17:43:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - HomePage initialized
+2025-10-08 17:43:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - LoginPage initialized
+2025-10-08 17:43:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - SignUpPage initialized
+2025-10-08 17:43:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ProductPage initialized
+2025-10-08 17:43:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CartPage initialized
+2025-10-08 17:43:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CheckoutPage initialized
+2025-10-08 17:43:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test setup completed successfully
+2025-10-08 17:43:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:43:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:43:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testRemoveProductFromCart
+2025-10-08 17:43:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test removing product from cart
+2025-10-08 17:43:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:43:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test: Remove product from cart
+2025-10-08 17:43:59 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (cebf0c902a3f4e3c2adf15169d5a9cb4)] -> link text: Phones]
+2025-10-08 17:43:59 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Selected category: Phones
+2025-10-08 17:44:03 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (cebf0c902a3f4e3c2adf15169d5a9cb4)] -> link text: Samsung galaxy s6]
+2025-10-08 17:44:03 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Selected product: Samsung galaxy s6
+2025-10-08 17:44:04 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (cebf0c902a3f4e3c2adf15169d5a9cb4)] -> xpath: //a[contains(text(),'Add to cart')]]
+2025-10-08 17:44:04 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked Add to Cart button
+2025-10-08 17:44:05 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert text: Product added
+2025-10-08 17:44:22 [main] WARN  com.demoblaze.automation.utils.LoggerUtil - Could not click Home link, trying alternative method
+2025-10-08 17:44:24 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Navigated to home page using JavaScript
+2025-10-08 17:44:35 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: cartur'
+2025-10-08 17:44:35 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on Cart link
+2025-10-08 17:44:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initial cart count: 2
+2025-10-08 17:44:38 [main] ERROR com.demoblaze.automation.utils.LoggerUtil - Failed to click element
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#" onclick="deleteItem('b3b255d5-c3d1-521c-64fa-d1cd93860109')">...</a> is not clickable at point (745, 203). Other element would receive the click: <input type="text" class="form-control" id="name">
+  (Session info: chrome=141.0.7390.54)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cebf0c902a3f4e3c2adf15169d5a9cb4, clickElement {id=f.F24E2BF7867D01216D31D6CDB7EDCF41.d.55D46DE83FF43693BF6DFF6CFAC366BE.e.269}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.54, chrome: {chromedriverVersion: 141.0.7390.65 (b2ec783d2b51..., userDataDir: C:\Users\visha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54314}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54314/devtoo..., se:cdpVersion: 141.0.7390.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (cebf0c902a3f4e3c2adf15169d5a9cb4)] -> xpath: //a[contains(text(),'Delete')]]
+Session ID: cebf0c902a3f4e3c2adf15169d5a9cb4
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200) ~[selenium-remote-driver-4.15.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133) ~[selenium-remote-driver-4.15.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52) ~[selenium-remote-driver-4.15.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191) ~[selenium-remote-driver-4.15.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200) ~[selenium-remote-driver-4.15.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175) ~[selenium-remote-driver-4.15.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607) ~[selenium-remote-driver-4.15.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224) ~[selenium-remote-driver-4.15.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77) ~[selenium-remote-driver-4.15.0.jar:?]
+	at com.demoblaze.automation.pages.BasePage.click(BasePage.java:32) ~[classes/:?]
+	at com.demoblaze.automation.pages.CartPage.deleteFirstItem(CartPage.java:86) ~[classes/:?]
+	at com.demoblaze.automation.tests.CartTests.testRemoveProductFromCart(CartTests.java:73) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.8.0.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.8.0.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.8.0.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [testng-7.8.0.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [testng-7.8.0.jar:7.8.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.2.2.jar:3.2.2]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.2.2.jar:3.2.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.2.2.jar:3.2.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.2.2.jar:3.2.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.2.2.jar:3.2.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.2.2.jar:3.2.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.2.2.jar:3.2.2]
+2025-10-08 17:44:38 [main] ERROR com.demoblaze.automation.utils.LoggerUtil - ✗ TEST FAILED: testRemoveProductFromCart
+2025-10-08 17:44:38 [main] ERROR com.demoblaze.automation.utils.LoggerUtil - Failure reason: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#" onclick="deleteItem('b3b255d5-c3d1-521c-64fa-d1cd93860109')">...</a> is not clickable at point (745, 203). Other element would receive the click: <input type="text" class="form-control" id="name">
+  (Session info: chrome=141.0.7390.54)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cebf0c902a3f4e3c2adf15169d5a9cb4, clickElement {id=f.F24E2BF7867D01216D31D6CDB7EDCF41.d.55D46DE83FF43693BF6DFF6CFAC366BE.e.269}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.54, chrome: {chromedriverVersion: 141.0.7390.65 (b2ec783d2b51..., userDataDir: C:\Users\visha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54314}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54314/devtoo..., se:cdpVersion: 141.0.7390.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (cebf0c902a3f4e3c2adf15169d5a9cb4)] -> xpath: //a[contains(text(),'Delete')]]
+Session ID: cebf0c902a3f4e3c2adf15169d5a9cb4
+2025-10-08 17:44:38 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Screenshot captured: output/screenshots/testRemoveProductFromCart_20251008_174438.png
+2025-10-08 17:44:38 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Screenshot saved at: output/screenshots/testRemoveProductFromCart_20251008_174438.png
+2025-10-08 17:44:38 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:44:38 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:44:38 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Quitting driver
+2025-10-08 17:44:38 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver quit successfully
+2025-10-08 17:44:38 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:44:38 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:44:38 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:44:38 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: chrome
+2025-10-08 17:44:38 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing chrome driver
+2025-10-08 17:44:39 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Chrome browser initialized
+2025-10-08 17:44:39 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver initialized successfully
+2025-10-08 17:44:41 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - HomePage initialized
+2025-10-08 17:44:41 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - LoginPage initialized
+2025-10-08 17:44:41 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - SignUpPage initialized
+2025-10-08 17:44:41 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ProductPage initialized
+2025-10-08 17:44:41 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CartPage initialized
+2025-10-08 17:44:41 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CheckoutPage initialized
+2025-10-08 17:44:41 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test setup completed successfully
+2025-10-08 17:44:41 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:44:41 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:44:41 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testCartTotalPriceDisplay
+2025-10-08 17:44:41 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test cart total price display
+2025-10-08 17:44:41 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:44:41 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test: Cart total price display
+2025-10-08 17:44:42 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (012722255af9047a495626a6ce62699c)] -> link text: Phones]
+2025-10-08 17:44:42 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Selected category: Phones
+2025-10-08 17:44:46 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (012722255af9047a495626a6ce62699c)] -> link text: Samsung galaxy s6]
+2025-10-08 17:44:46 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Selected product: Samsung galaxy s6
+2025-10-08 17:44:47 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Retrieved text: $360 *includes tax
+2025-10-08 17:44:47 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Product price: $360
+2025-10-08 17:44:47 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (012722255af9047a495626a6ce62699c)] -> xpath: //a[contains(text(),'Add to cart')]]
+2025-10-08 17:44:47 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked Add to Cart button
+2025-10-08 17:44:48 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert text: Product added
+2025-10-08 17:45:11 [main] ERROR com.demoblaze.automation.utils.LoggerUtil - Element not clickable: By.linkText: Home
+2025-10-08 17:45:11 [main] WARN  com.demoblaze.automation.utils.LoggerUtil - Could not click Home link, trying alternative method
+2025-10-08 17:45:13 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Navigated to home page using JavaScript
+2025-10-08 17:45:24 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: cartur'
+2025-10-08 17:45:24 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on Cart link
+2025-10-08 17:45:25 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Retrieved text: 360
+2025-10-08 17:45:25 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Cart total: 360
+2025-10-08 17:45:25 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ✓ TEST PASSED: testCartTotalPriceDisplay
+2025-10-08 17:45:25 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Execution Time: 44168 ms
+2025-10-08 17:45:25 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:45:25 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:45:25 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Quitting driver
+2025-10-08 17:45:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver quit successfully
+2025-10-08 17:45:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:45:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:45:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:45:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: chrome
+2025-10-08 17:45:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing chrome driver
+2025-10-08 17:45:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Chrome browser initialized
+2025-10-08 17:45:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver initialized successfully
+2025-10-08 17:45:28 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - HomePage initialized
+2025-10-08 17:45:28 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - LoginPage initialized
+2025-10-08 17:45:28 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - SignUpPage initialized
+2025-10-08 17:45:28 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ProductPage initialized
+2025-10-08 17:45:28 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CartPage initialized
+2025-10-08 17:45:28 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CheckoutPage initialized
+2025-10-08 17:45:28 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test setup completed successfully
+2025-10-08 17:45:28 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:45:28 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:45:28 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testAddMultipleProductsToCart
+2025-10-08 17:45:28 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test adding multiple products to cart
+2025-10-08 17:45:28 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:45:28 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test: Add multiple products to cart
+2025-10-08 17:45:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (068dc33e2abcc4bbf09d14938fcda77d)] -> link text: Phones]
+2025-10-08 17:45:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Selected category: Phones
+2025-10-08 17:45:33 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (068dc33e2abcc4bbf09d14938fcda77d)] -> link text: Samsung galaxy s6]
+2025-10-08 17:45:33 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Selected product: Samsung galaxy s6
+2025-10-08 17:45:34 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (068dc33e2abcc4bbf09d14938fcda77d)] -> xpath: //a[contains(text(),'Add to cart')]]
+2025-10-08 17:45:34 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked Add to Cart button
+2025-10-08 17:45:35 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert text: Product added
+2025-10-08 17:45:57 [main] ERROR com.demoblaze.automation.utils.LoggerUtil - Element not clickable: By.linkText: Home
+2025-10-08 17:45:57 [main] WARN  com.demoblaze.automation.utils.LoggerUtil - Could not click Home link, trying alternative method
+2025-10-08 17:46:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Navigated to home page using JavaScript
+2025-10-08 17:46:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (068dc33e2abcc4bbf09d14938fcda77d)] -> link text: Nokia lumia 1520]
+2025-10-08 17:46:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Selected product: Nokia lumia 1520
+2025-10-08 17:46:04 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (068dc33e2abcc4bbf09d14938fcda77d)] -> xpath: //a[contains(text(),'Add to cart')]]
+2025-10-08 17:46:04 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked Add to Cart button
+2025-10-08 17:46:05 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert text: Product added
+2025-10-08 17:46:10 [main] WARN  com.demoblaze.automation.utils.LoggerUtil - Could not click Home link, trying alternative method
+2025-10-08 17:46:14 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Navigated to home page using JavaScript
+2025-10-08 17:46:25 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: cartur'
+2025-10-08 17:46:25 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on Cart link
+2025-10-08 17:46:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Cart item count: 3
+2025-10-08 17:46:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ✓ TEST PASSED: testAddMultipleProductsToCart
+2025-10-08 17:46:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Execution Time: 57940 ms
+2025-10-08 17:46:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:46:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:46:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Quitting driver
+2025-10-08 17:46:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver quit successfully
+2025-10-08 17:46:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:46:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:46:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:46:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: chrome
+2025-10-08 17:46:26 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing chrome driver
+2025-10-08 17:46:27 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Chrome browser initialized
+2025-10-08 17:46:27 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver initialized successfully
+2025-10-08 17:46:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - HomePage initialized
+2025-10-08 17:46:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - LoginPage initialized
+2025-10-08 17:46:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - SignUpPage initialized
+2025-10-08 17:46:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ProductPage initialized
+2025-10-08 17:46:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CartPage initialized
+2025-10-08 17:46:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CheckoutPage initialized
+2025-10-08 17:46:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test setup completed successfully
+2025-10-08 17:46:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:46:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:46:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testCompleteCheckoutProcess
+2025-10-08 17:46:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test complete checkout process with valid details
+2025-10-08 17:46:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:46:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test: Complete checkout process
+2025-10-08 17:46:30 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (2af657f150cc069dbddd525dad395f0e)] -> link text: Phones]
+2025-10-08 17:46:30 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Selected category: Phones
+2025-10-08 17:46:34 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (2af657f150cc069dbddd525dad395f0e)] -> link text: Samsung galaxy s6]
+2025-10-08 17:46:34 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Selected product: Samsung galaxy s6
+2025-10-08 17:46:34 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (2af657f150cc069dbddd525dad395f0e)] -> xpath: //a[contains(text(),'Add to cart')]]
+2025-10-08 17:46:34 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked Add to Cart button
+2025-10-08 17:46:35 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert text: Product added
+2025-10-08 17:46:58 [main] ERROR com.demoblaze.automation.utils.LoggerUtil - Element not clickable: By.linkText: Home
+2025-10-08 17:46:58 [main] WARN  com.demoblaze.automation.utils.LoggerUtil - Could not click Home link, trying alternative method
+2025-10-08 17:47:01 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Navigated to home page using JavaScript
+2025-10-08 17:47:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: cartur'
+2025-10-08 17:47:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on Cart link
+2025-10-08 17:47:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (2af657f150cc069dbddd525dad395f0e)] -> xpath: //button[contains(text(),'Place Order')]]
+2025-10-08 17:47:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked Place Order button
+2025-10-08 17:47:14 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Checkout modal is visible
+2025-10-08 17:47:14 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: John Doe
+2025-10-08 17:47:14 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: USA
+2025-10-08 17:47:14 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: New York
+2025-10-08 17:47:14 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: 1234567890123456
+2025-10-08 17:47:14 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: 12
+2025-10-08 17:47:14 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: 2025
+2025-10-08 17:47:14 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Filled checkout form for: John Doe
+2025-10-08 17:47:14 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (2af657f150cc069dbddd525dad395f0e)] -> xpath: //button[contains(text(),'Purchase')]]
+2025-10-08 17:47:14 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked Purchase button
+2025-10-08 17:47:16 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Order confirmed: true
+2025-10-08 17:47:27 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(text(),'OK')]'
+2025-10-08 17:47:27 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked OK on order confirmation
+2025-10-08 17:47:27 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ✓ TEST PASSED: testCompleteCheckoutProcess
+2025-10-08 17:47:27 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Execution Time: 58519 ms
+2025-10-08 17:47:27 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:47:27 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:47:27 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Quitting driver
+2025-10-08 17:47:28 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver quit successfully
+2025-10-08 17:47:28 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:47:28 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:47:28 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:47:28 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: chrome
+2025-10-08 17:47:28 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing chrome driver
+2025-10-08 17:47:28 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Chrome browser initialized
+2025-10-08 17:47:28 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver initialized successfully
+2025-10-08 17:47:31 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - HomePage initialized
+2025-10-08 17:47:31 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - LoginPage initialized
+2025-10-08 17:47:31 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - SignUpPage initialized
+2025-10-08 17:47:31 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ProductPage initialized
+2025-10-08 17:47:31 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CartPage initialized
+2025-10-08 17:47:31 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CheckoutPage initialized
+2025-10-08 17:47:31 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test setup completed successfully
+2025-10-08 17:47:31 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:47:31 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:47:31 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testCheckoutWithEmptyName
+2025-10-08 17:47:31 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test checkout with empty name field
+2025-10-08 17:47:31 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:47:31 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test: Checkout with empty name
+2025-10-08 17:47:32 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (55e1439e083386b0757569b74c38a8e5)] -> link text: Phones]
+2025-10-08 17:47:32 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Selected category: Phones
+2025-10-08 17:47:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (55e1439e083386b0757569b74c38a8e5)] -> link text: Samsung galaxy s6]
+2025-10-08 17:47:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Selected product: Samsung galaxy s6
+2025-10-08 17:47:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (55e1439e083386b0757569b74c38a8e5)] -> xpath: //a[contains(text(),'Add to cart')]]
+2025-10-08 17:47:36 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked Add to Cart button
+2025-10-08 17:47:37 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert text: Product added
+2025-10-08 17:48:00 [main] ERROR com.demoblaze.automation.utils.LoggerUtil - Element not clickable: By.linkText: Home
+2025-10-08 17:48:00 [main] WARN  com.demoblaze.automation.utils.LoggerUtil - Could not click Home link, trying alternative method
+2025-10-08 17:48:03 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Navigated to home page using JavaScript
+2025-10-08 17:48:14 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: cartur'
+2025-10-08 17:48:14 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on Cart link
+2025-10-08 17:48:14 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (55e1439e083386b0757569b74c38a8e5)] -> xpath: //button[contains(text(),'Place Order')]]
+2025-10-08 17:48:14 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked Place Order button
+2025-10-08 17:48:16 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Checkout modal is visible
+2025-10-08 17:48:17 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Checkout modal is visible
+2025-10-08 17:48:18 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: 
+2025-10-08 17:48:18 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: USA
+2025-10-08 17:48:18 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: New York
+2025-10-08 17:48:18 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: 1234567890123456
+2025-10-08 17:48:18 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: 12
+2025-10-08 17:48:18 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: 2025
+2025-10-08 17:48:18 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Filled checkout form for: 
+2025-10-08 17:48:18 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked Purchase button (alert expected)
+2025-10-08 17:48:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert text: Please fill out Name and Creditcard.
+2025-10-08 17:48:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert: Please fill out Name and Creditcard.
+2025-10-08 17:48:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert text: Please fill out Name and Creditcard.
+2025-10-08 17:48:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ✓ TEST PASSED: testCheckoutWithEmptyName
+2025-10-08 17:48:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Execution Time: 48708 ms
+2025-10-08 17:48:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:48:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:48:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Quitting driver
+2025-10-08 17:48:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver quit successfully
+2025-10-08 17:48:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:48:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:48:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:48:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: chrome
+2025-10-08 17:48:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing chrome driver
+2025-10-08 17:48:20 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Chrome browser initialized
+2025-10-08 17:48:20 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver initialized successfully
+2025-10-08 17:48:22 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - HomePage initialized
+2025-10-08 17:48:22 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - LoginPage initialized
+2025-10-08 17:48:22 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - SignUpPage initialized
+2025-10-08 17:48:22 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ProductPage initialized
+2025-10-08 17:48:22 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CartPage initialized
+2025-10-08 17:48:22 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CheckoutPage initialized
+2025-10-08 17:48:22 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test setup completed successfully
+2025-10-08 17:48:22 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:48:22 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:48:22 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testCheckoutWithEmptyCreditCard
+2025-10-08 17:48:22 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test checkout with empty credit card field
+2025-10-08 17:48:22 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:48:22 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test: Checkout with empty credit card
+2025-10-08 17:48:23 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (6cd461e5b2400c29b6243e0a9a71233d)] -> link text: Phones]
+2025-10-08 17:48:23 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Selected category: Phones
+2025-10-08 17:48:27 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (6cd461e5b2400c29b6243e0a9a71233d)] -> link text: Samsung galaxy s6]
+2025-10-08 17:48:27 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Selected product: Samsung galaxy s6
+2025-10-08 17:48:28 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (6cd461e5b2400c29b6243e0a9a71233d)] -> xpath: //a[contains(text(),'Add to cart')]]
+2025-10-08 17:48:28 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked Add to Cart button
+2025-10-08 17:48:29 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert text: Product added
+2025-10-08 17:48:51 [main] ERROR com.demoblaze.automation.utils.LoggerUtil - Element not clickable: By.linkText: Home
+2025-10-08 17:48:51 [main] WARN  com.demoblaze.automation.utils.LoggerUtil - Could not click Home link, trying alternative method
+2025-10-08 17:48:54 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Navigated to home page using JavaScript
+2025-10-08 17:49:05 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: cartur'
+2025-10-08 17:49:05 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on Cart link
+2025-10-08 17:49:05 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (6cd461e5b2400c29b6243e0a9a71233d)] -> xpath: //button[contains(text(),'Place Order')]]
+2025-10-08 17:49:05 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked Place Order button
+2025-10-08 17:49:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Checkout modal is visible
+2025-10-08 17:49:08 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Checkout modal is visible
+2025-10-08 17:49:08 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: John Doe
+2025-10-08 17:49:08 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: USA
+2025-10-08 17:49:09 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: New York
+2025-10-08 17:49:09 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: 
+2025-10-08 17:49:09 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: 12
+2025-10-08 17:49:09 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: 2025
+2025-10-08 17:49:09 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Filled checkout form for: John Doe
+2025-10-08 17:49:09 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked Purchase button (alert expected)
+2025-10-08 17:49:10 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert text: Please fill out Name and Creditcard.
+2025-10-08 17:49:10 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert: Please fill out Name and Creditcard.
+2025-10-08 17:49:10 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert text: Please fill out Name and Creditcard.
+2025-10-08 17:49:10 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ✓ TEST PASSED: testCheckoutWithEmptyCreditCard
+2025-10-08 17:49:10 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Execution Time: 48135 ms
+2025-10-08 17:49:10 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:49:10 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:49:10 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Quitting driver
+2025-10-08 17:49:10 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver quit successfully
+2025-10-08 17:49:10 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:49:10 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:49:10 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:49:10 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: chrome
+2025-10-08 17:49:10 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing chrome driver
+2025-10-08 17:49:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Chrome browser initialized
+2025-10-08 17:49:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver initialized successfully
+2025-10-08 17:49:12 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - HomePage initialized
+2025-10-08 17:49:12 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - LoginPage initialized
+2025-10-08 17:49:12 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - SignUpPage initialized
+2025-10-08 17:49:12 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ProductPage initialized
+2025-10-08 17:49:12 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CartPage initialized
+2025-10-08 17:49:12 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CheckoutPage initialized
+2025-10-08 17:49:12 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test setup completed successfully
+2025-10-08 17:49:12 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:49:12 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:49:12 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testOrderDetailsDisplay
+2025-10-08 17:49:12 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test order details display after successful purchase
+2025-10-08 17:49:12 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:49:12 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test: Order details display
+2025-10-08 17:49:13 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (513ddd79a93c7b361a830a0f7e3074ff)] -> link text: Phones]
+2025-10-08 17:49:13 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Selected category: Phones
+2025-10-08 17:49:17 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (513ddd79a93c7b361a830a0f7e3074ff)] -> link text: Samsung galaxy s6]
+2025-10-08 17:49:17 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Selected product: Samsung galaxy s6
+2025-10-08 17:49:18 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (513ddd79a93c7b361a830a0f7e3074ff)] -> xpath: //a[contains(text(),'Add to cart')]]
+2025-10-08 17:49:18 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked Add to Cart button
+2025-10-08 17:49:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert text: Product added
+2025-10-08 17:49:42 [main] ERROR com.demoblaze.automation.utils.LoggerUtil - Element not clickable: By.linkText: Home
+2025-10-08 17:49:42 [main] WARN  com.demoblaze.automation.utils.LoggerUtil - Could not click Home link, trying alternative method
+2025-10-08 17:49:44 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Navigated to home page using JavaScript
+2025-10-08 17:49:55 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: cartur'
+2025-10-08 17:49:55 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on Cart link
+2025-10-08 17:49:55 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (513ddd79a93c7b361a830a0f7e3074ff)] -> xpath: //button[contains(text(),'Place Order')]]
+2025-10-08 17:49:55 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked Place Order button
+2025-10-08 17:49:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Checkout modal is visible
+2025-10-08 17:49:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: Jane Smith
+2025-10-08 17:49:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: UK
+2025-10-08 17:49:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: London
+2025-10-08 17:49:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: 9876543210987654
+2025-10-08 17:49:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: 06
+2025-10-08 17:49:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Entered text: 2026
+2025-10-08 17:49:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Filled checkout form for: Jane Smith
+2025-10-08 17:49:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (513ddd79a93c7b361a830a0f7e3074ff)] -> xpath: //button[contains(text(),'Purchase')]]
+2025-10-08 17:49:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked Purchase button
+2025-10-08 17:50:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Retrieved text: Id: 3533188
+Amount: 360 USD
+Card Number: 9876543210987654
+Name: Jane Smith
+Date: 8/9/2025
+2025-10-08 17:50:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Order details: Id: 3533188
+Amount: 360 USD
+Card Number: 9876543210987654
+Name: Jane Smith
+Date: 8/9/2025
+2025-10-08 17:50:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(text(),'OK')]'
+2025-10-08 17:50:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked OK on order confirmation
+2025-10-08 17:50:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ✓ TEST PASSED: testOrderDetailsDisplay
+2025-10-08 17:50:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Execution Time: 59023 ms
+2025-10-08 17:50:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:50:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:50:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Quitting driver
+2025-10-08 17:50:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver quit successfully
+2025-10-08 17:50:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:50:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:50:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:50:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: chrome
+2025-10-08 17:50:11 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing chrome driver
+2025-10-08 17:50:12 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Chrome browser initialized
+2025-10-08 17:50:12 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver initialized successfully
+2025-10-08 17:50:14 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - HomePage initialized
+2025-10-08 17:50:14 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - LoginPage initialized
+2025-10-08 17:50:14 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - SignUpPage initialized
+2025-10-08 17:50:14 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ProductPage initialized
+2025-10-08 17:50:14 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CartPage initialized
+2025-10-08 17:50:14 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - CheckoutPage initialized
+2025-10-08 17:50:14 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test setup completed successfully
+2025-10-08 17:50:14 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:50:14 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:50:14 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testCloseCheckoutModal
+2025-10-08 17:50:14 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test closing checkout modal
+2025-10-08 17:50:14 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:50:14 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test: Close checkout modal
+2025-10-08 17:50:15 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (bb084a91a74ae70e151a65cd65124299)] -> link text: Phones]
+2025-10-08 17:50:15 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Selected category: Phones
+2025-10-08 17:50:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (bb084a91a74ae70e151a65cd65124299)] -> link text: Samsung galaxy s6]
+2025-10-08 17:50:19 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Selected product: Samsung galaxy s6
+2025-10-08 17:50:20 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (bb084a91a74ae70e151a65cd65124299)] -> xpath: //a[contains(text(),'Add to cart')]]
+2025-10-08 17:50:20 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked Add to Cart button
+2025-10-08 17:50:21 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Alert text: Product added
+2025-10-08 17:50:44 [main] ERROR com.demoblaze.automation.utils.LoggerUtil - Element not clickable: By.linkText: Home
+2025-10-08 17:50:44 [main] WARN  com.demoblaze.automation.utils.LoggerUtil - Could not click Home link, trying alternative method
+2025-10-08 17:50:46 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Navigated to home page using JavaScript
+2025-10-08 17:50:57 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: cartur'
+2025-10-08 17:50:57 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on Cart link
+2025-10-08 17:50:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (bb084a91a74ae70e151a65cd65124299)] -> xpath: //button[contains(text(),'Place Order')]]
+2025-10-08 17:50:58 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked Place Order button
+2025-10-08 17:51:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Checkout modal is visible
+2025-10-08 17:51:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Clicked on element: [[ChromeDriver: chrome on windows (bb084a91a74ae70e151a65cd65124299)] -> xpath: //div[@id='orderModal']//button[contains(text(),'Close')]]
+2025-10-08 17:51:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Current URL: https://www.demoblaze.com/cart.html
+2025-10-08 17:51:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ✓ TEST PASSED: testCloseCheckoutModal
+2025-10-08 17:51:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Execution Time: 45652 ms
+2025-10-08 17:51:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:51:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Quitting driver
+2025-10-08 17:51:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Driver quit successfully
+2025-10-08 17:51:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:51:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:51:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - TEST SUITE FINISHED: Chrome Tests
+2025-10-08 17:51:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Total Tests: 25
+2025-10-08 17:51:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Passed: 24
+2025-10-08 17:51:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Failed: 1
+2025-10-08 17:51:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Skipped: 0
+2025-10-08 17:51:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Success Rate: 96.00%
+2025-10-08 17:51:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:51:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:51:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - TEST SUITE STARTED: Firefox Tests
+2025-10-08 17:51:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:51:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: firefox
+2025-10-08 17:51:00 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing firefox driver
+2025-10-08 17:51:01 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:51:01 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testLoginWithValidCredentials
+2025-10-08 17:51:01 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test login with valid credentials
+2025-10-08 17:51:01 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:51:01 [main] WARN  com.demoblaze.automation.utils.LoggerUtil - ⊘ TEST SKIPPED: testLoginWithValidCredentials
+2025-10-08 17:51:01 [main] WARN  com.demoblaze.automation.utils.LoggerUtil - Skip reason: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line 
+Host info: host: 'VISHALNIVANGUNE', ip: '192.168.31.227'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {args: [--start-maximized]}}]}]
+2025-10-08 17:51:01 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:01 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:51:01 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:51:01 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:01 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:01 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: firefox
+2025-10-08 17:51:01 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing firefox driver
+2025-10-08 17:51:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:51:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testLoginWithInvalidUsername
+2025-10-08 17:51:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test login with invalid username
+2025-10-08 17:51:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:51:02 [main] WARN  com.demoblaze.automation.utils.LoggerUtil - ⊘ TEST SKIPPED: testLoginWithInvalidUsername
+2025-10-08 17:51:02 [main] WARN  com.demoblaze.automation.utils.LoggerUtil - Skip reason: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line 
+Host info: host: 'VISHALNIVANGUNE', ip: '192.168.31.227'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {args: [--start-maximized]}}]}]
+2025-10-08 17:51:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:51:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:51:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: firefox
+2025-10-08 17:51:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing firefox driver
+2025-10-08 17:51:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:51:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testLoginWithInvalidPassword
+2025-10-08 17:51:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test login with invalid password
+2025-10-08 17:51:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:51:02 [main] WARN  com.demoblaze.automation.utils.LoggerUtil - ⊘ TEST SKIPPED: testLoginWithInvalidPassword
+2025-10-08 17:51:02 [main] WARN  com.demoblaze.automation.utils.LoggerUtil - Skip reason: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line 
+Host info: host: 'VISHALNIVANGUNE', ip: '192.168.31.227'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {args: [--start-maximized]}}]}]
+2025-10-08 17:51:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:51:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:51:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: firefox
+2025-10-08 17:51:02 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing firefox driver
+2025-10-08 17:51:03 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:51:03 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testLoginWithEmptyCredentials
+2025-10-08 17:51:03 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test login with empty credentials
+2025-10-08 17:51:03 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:51:03 [main] WARN  com.demoblaze.automation.utils.LoggerUtil - ⊘ TEST SKIPPED: testLoginWithEmptyCredentials
+2025-10-08 17:51:03 [main] WARN  com.demoblaze.automation.utils.LoggerUtil - Skip reason: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line 
+Host info: host: 'VISHALNIVANGUNE', ip: '192.168.31.227'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {args: [--start-maximized]}}]}]
+2025-10-08 17:51:03 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:03 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:51:03 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:51:03 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:03 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:03 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: firefox
+2025-10-08 17:51:03 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing firefox driver
+2025-10-08 17:51:04 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:51:04 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testLogoutFunctionality
+2025-10-08 17:51:04 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test logout functionality
+2025-10-08 17:51:04 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:51:04 [main] WARN  com.demoblaze.automation.utils.LoggerUtil - ⊘ TEST SKIPPED: testLogoutFunctionality
+2025-10-08 17:51:04 [main] WARN  com.demoblaze.automation.utils.LoggerUtil - Skip reason: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line 
+Host info: host: 'VISHALNIVANGUNE', ip: '192.168.31.227'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {args: [--start-maximized]}}]}]
+2025-10-08 17:51:04 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:04 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:51:04 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:51:04 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:04 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:04 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: firefox
+2025-10-08 17:51:04 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing firefox driver
+2025-10-08 17:51:04 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:51:04 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testSuccessfulSignUp
+2025-10-08 17:51:04 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test successful sign up with unique username
+2025-10-08 17:51:04 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:51:04 [main] WARN  com.demoblaze.automation.utils.LoggerUtil - ⊘ TEST SKIPPED: testSuccessfulSignUp
+2025-10-08 17:51:04 [main] WARN  com.demoblaze.automation.utils.LoggerUtil - Skip reason: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line 
+Host info: host: 'VISHALNIVANGUNE', ip: '192.168.31.227'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {args: [--start-maximized]}}]}]
+2025-10-08 17:51:04 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:04 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:51:04 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:51:04 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:04 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:04 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: firefox
+2025-10-08 17:51:04 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing firefox driver
+2025-10-08 17:51:05 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:51:05 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testSignUpWithExistingUser
+2025-10-08 17:51:05 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test sign up with existing username
+2025-10-08 17:51:05 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:51:05 [main] WARN  com.demoblaze.automation.utils.LoggerUtil - ⊘ TEST SKIPPED: testSignUpWithExistingUser
+2025-10-08 17:51:05 [main] WARN  com.demoblaze.automation.utils.LoggerUtil - Skip reason: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line 
+Host info: host: 'VISHALNIVANGUNE', ip: '192.168.31.227'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {args: [--start-maximized]}}]}]
+2025-10-08 17:51:05 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:05 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:51:05 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:51:05 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:05 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:05 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: firefox
+2025-10-08 17:51:05 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing firefox driver
+2025-10-08 17:51:06 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:51:06 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testSignUpWithEmptyFields
+2025-10-08 17:51:06 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test sign up with empty fields
+2025-10-08 17:51:06 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:51:06 [main] WARN  com.demoblaze.automation.utils.LoggerUtil - ⊘ TEST SKIPPED: testSignUpWithEmptyFields
+2025-10-08 17:51:06 [main] WARN  com.demoblaze.automation.utils.LoggerUtil - Skip reason: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line 
+Host info: host: 'VISHALNIVANGUNE', ip: '192.168.31.227'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {args: [--start-maximized]}}]}]
+2025-10-08 17:51:06 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:06 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:51:06 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:51:06 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:06 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:06 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: firefox
+2025-10-08 17:51:06 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing firefox driver
+2025-10-08 17:51:06 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:51:06 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testSignUpWithOnlyUsername
+2025-10-08 17:51:06 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test sign up with only username
+2025-10-08 17:51:06 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:51:06 [main] WARN  com.demoblaze.automation.utils.LoggerUtil - ⊘ TEST SKIPPED: testSignUpWithOnlyUsername
+2025-10-08 17:51:06 [main] WARN  com.demoblaze.automation.utils.LoggerUtil - Skip reason: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line 
+Host info: host: 'VISHALNIVANGUNE', ip: '192.168.31.227'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {args: [--start-maximized]}}]}]
+2025-10-08 17:51:06 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:06 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:51:06 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:51:06 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:06 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:06 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test setup for browser: firefox
+2025-10-08 17:51:06 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Initializing firefox driver
+2025-10-08 17:51:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:51:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - STARTING TEST: testSignUpModalClose
+2025-10-08 17:51:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Description: Test sign up modal close functionality
+2025-10-08 17:51:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:51:07 [main] WARN  com.demoblaze.automation.utils.LoggerUtil - ⊘ TEST SKIPPED: testSignUpModalClose
+2025-10-08 17:51:07 [main] WARN  com.demoblaze.automation.utils.LoggerUtil - Skip reason: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line 
+Host info: host: 'VISHALNIVANGUNE', ip: '192.168.31.227'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {args: [--start-maximized]}}]}]
+2025-10-08 17:51:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Starting test teardown
+2025-10-08 17:51:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Test teardown completed
+2025-10-08 17:51:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ============================================
+2025-10-08 17:51:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
+2025-10-08 17:51:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - TEST SUITE FINISHED: Firefox Tests
+2025-10-08 17:51:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Total Tests: 10
+2025-10-08 17:51:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Passed: 0
+2025-10-08 17:51:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Failed: 0
+2025-10-08 17:51:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Skipped: 10
+2025-10-08 17:51:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - Success Rate: 0.00%
+2025-10-08 17:51:07 [main] INFO  com.demoblaze.automation.utils.LoggerUtil - ========================================
