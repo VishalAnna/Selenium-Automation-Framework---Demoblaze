@@ -12,8 +12,7 @@ A Selenium WebDriver automation framework for testing the Demoblaze e-commerce w
 - [Configuration](#configuration)
 - [Running Tests](#running-tests)
 - [Test Coverage](#test-coverage)
-- [Reports](#reports)
-- [Troubleshooting](#troubleshooting)
+
 
 ## Overview
 
@@ -129,58 +128,7 @@ Total: 25+ test cases
 | Cart Tests | 5 | Add/remove products, price calculation |
 | Checkout Tests | 5 | Complete checkout, form validation |
 
-## Reports
 
-**TestNG HTML Reports:** `output/test-output/index.html`
-- Test execution summary
-- Pass/Fail/Skip statistics
-- Detailed test results
-- Stack traces for failures
 
-**Execution Logs:** `output/logs/automation.log`
-
-**Screenshots:** `output/screenshots/`
-- Automatically captured for failed tests
-- Timestamped filenames
-
-## Troubleshooting
-
-### Browser Driver Issues
-- WebDriverManager handles drivers automatically
-- Ensure internet connection for first-time download
-
-### Element Not Found
-- Increase wait times in `config.properties`
-- Verify element locators are correct
-- Check if page is fully loaded
-
-### Tests Failing Intermittently
-- Enable retry analyzer (already implemented)
-- Increase explicit wait time
-- Check for dynamic content
-
-### Maven Build Fails
-```bash
-mvn clean install -U -DskipTests
-```
-
-## Quick Start
-
-```bash
-# Navigate to project
-cd demoblaze
-
-# Install dependencies
-mvn clean install -DskipTests
-
-# Run tests
-mvn clean test
-
-# View reports
-open output/test-output/index.html
-```
-
-## License
-
-This project is created for educational and testing purposes.
+This project is created for educational  purposes.
 
